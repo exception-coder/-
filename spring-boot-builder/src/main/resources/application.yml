@@ -6,6 +6,11 @@ book:
   author: none
   desc: ${book.author} is writing 《${book.name}》
 management:
+  endpoint:
+    info:
+      enabled: true
+    shutdown:
+      enabled: true
   endpoints:
     web:
       exposure:
