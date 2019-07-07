@@ -3,4 +3,4 @@ spring:
     nacos:
       discovery:
         # nacos server 地址
-        server-addr: http://47.75.196.191:8848
+        server-addr: 47.75.196.191:8848

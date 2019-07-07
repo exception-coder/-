@@ -1,5 +1,8 @@
 server:
   port: 8881
+spring:
+  application:
+    name: hello
 # 自定义参数
 book:
   name: 微服务实战
@@ -15,6 +18,7 @@ management:
     web:
       exposure:
         include: "*"
+
 ---
 
 spring:

@@ -3,4 +3,11 @@ spring:
     nacos:
       discovery:
         # nacos server 地址
-        server-addr: http://47.75.196.191:8848
+        server-addr: 47.75.196.191:8848
+
+#  ribbon
+ribbon:
+  # 请求连接的超时时间
+  ConnectTimeout: 100
+  # 请求处理的超时时间
+  ReadTimeout: 3000

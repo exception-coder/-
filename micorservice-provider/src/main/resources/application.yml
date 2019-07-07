@@ -1,5 +1,6 @@
 server:
-  port: 8070
+  # 随机生成 （8070,8080） 区间的端口
+  port: ${random.int(8070,8080)}
 spring:
   application:
     name: micorservice-provider
